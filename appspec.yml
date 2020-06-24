@@ -6,8 +6,8 @@ files:
 permissions:
   - object: /
     pattern: "**"
-    owner: app
-    group: app
+    owner: pi
+    group: pi
 hooks:
   ApplicationStop:
     - location: scripts/ApplicationStop.sh
